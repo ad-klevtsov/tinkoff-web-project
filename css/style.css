@@ -266,3 +266,114 @@ body {
   background: url(../img/list-item.svg) left top no-repeat;
   padding: 0px 0px 0px 20px;
 }
+
+.what {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.what-header {
+  display: flex;
+  width: 100%;
+  padding: 76px 224px 24px 224px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.what-body {
+  width: 100%;
+  padding: 24px 128px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 48px;
+}
+.what-body__column {
+  display: flex;
+  width: 336px;
+  height: 232px;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 24px;
+  background-color: #fff;
+}
+.what-body__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+.what-body__title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.what-body__text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.how {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.how-header {
+  display: flex;
+  width: 100%;
+  padding: 76px 224px 24px 224px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.how-body {
+  display: flex;
+  width: 100%;
+  padding: 24px 128px;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+.how-body__coulmn {
+  display: flex;
+  width: 528px;
+  height: 212px;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background-color: #fff;
+}
+.how-body__content {
+  display: flex;
+  width: 464px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.how-body__title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px; /* 116.667% */
+}
+.how-body__list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+.how-body__list li {
+  background: url(../img/list-item.svg) left top no-repeat;
+  padding: 0px 0px 0px 20px;
+}
